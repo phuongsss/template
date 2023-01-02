@@ -1,0 +1,344 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.cangiua{
+    text-align: center;
+}
+/* 1 cho tat ca  */
+/* cai nay la menu ngang */
+#menungang{
+    background-color:black;
+    height:60px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+.ngang1{
+    display: inline-block;
+}
+.ngang2{
+    line-height: 60px;
+    color:white;
+    font-family: sans-serif;
+    padding:0 40px;
+}
+.ngang1:hover .ngang2 {
+    background-color:whitesmoke;
+    color:black;
+    display:inline-block;
+}
+.phu1{
+    display: inline-block;
+    position:relative;
+}
+.phu2{
+    line-height: 60px;
+    color:white;
+    font-family: sans-serif;
+    padding:0 40px;
+}
+.phu1:hover .phu2{
+    background-color:whitesmoke;
+    color:black;
+    display:inline-block;
+}
+.phu1:hover .doc1 {
+    display:block;
+}
+.doc1{
+    position:absolute;
+    background-color:black;
+    display: none;
+    width: 300px;
+    box-shadow:0 0 10px 4px #888888 ;
+}
+.doc2{
+}
+.doc3{
+color:whitesmoke;
+font-family: sans-serif;
+line-height: 60px;
+padding-left:40px
+}
+ .doc2:hover .doc3{
+    background-color: white;
+    color:black;
+    display:block;
+}
+.seach{
+float:right;
+line-height:60px;
+}
+.seach1{
+line-height:60px;
+}
+.seach2{
+color:white;
+padding:24px 30px;
+}
+.seach1:hover .seach2{
+    color:black;
+    background-color:white;
+    cursor: pointer;
+}
+/* cai nay la menu ngang */
+/* cai nay la menuanh */
+#menuanh{
+    background-image:url(./hinh/10.png);
+    background-size:cover;
+    height:800px;
+    margin-top:60px;
+    position: relative;
+}
+#menuanh .ngauhung1{
+position: absolute;
+bottom:70px;
+left:0;
+right:0;
+text-align: center;
+}
+#menuanh .ngauhung2{
+position: absolute;
+bottom:20px;
+width:100%;
+text-align: center;
+}
+.vanban{
+color:white;
+font-size:30px;
+font-family: sans-serif;
+}
+.daylavanban{
+font-size: 20px; 
+color:white;
+}
+/* cai nay la menuanh */
+/* cai nay la ba hinh */
+.bahinh1{
+    margin-top:80px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:30px;
+    font-weight: 100;
+}
+.bahinh2{
+    text-align: center;
+    margin:30px 0;
+}
+.bahinh3{
+    margin-top:50px;
+    display: inline-block;
+    text-align: justify;
+    margin:0 10%;
+    line-height:1.5;
+}
+.bahinh4{
+    margin-top:30px;
+    text-align: center;
+}
+.daylabos{
+    display: inline-block;
+}
+.thuoctinh{
+    width:200px;
+    margin: 20px 50px;
+    margin-bottom:
+}
+/* cai nay la ba hinh */
+/* cai nay la dia diem */
+     .diadiem{
+        background-color:black;
+        height:1100px;
+        margin-top:75px
+     }
+     .diadiem2,
+     .diadiem1{
+        color:white;
+     }
+     .diadiem1{
+        font-family: sans-serif;
+    font-size:30px;
+    font-weight: 100;
+    padding:40px 0;
+     }
+     .diadiem2{
+        margin-bottom:50px
+     }
+     .diadiem3{
+        background-color:white;
+        margin:0 200px;
+     }
+     .daylathongtin{
+        padding: 10px 0;
+        font-size:20px;
+        border:1px solid #ddd;
+     }
+     .daylagiatri{
+        margin-left:60px;
+        padding: 7px;
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+     }
+     .vecon{
+        float:right;
+        margin-right:16px;
+        padding:0 8px;
+        border-radius: 50%;
+        color:white;
+        background-color: black;
+     }
+     .canden{
+        text-align: center;
+        margin:0 200px;
+     }
+     .bamvao{
+        display: inline-block;
+        padding: 33px ;
+     }
+     .caix1{
+        width: 250px;
+        display:block;
+        cursor: pointer;
+     }
+     .nhapdi{
+        background-color: white;
+        width: 250px;
+        text-align: left;
+     }
+     .caix4,
+     .caix3,
+     .caix2{
+          padding:20px 8px;
+          font-family: sans-serif;
+     }
+     .nutbam{
+        margin:30px;
+        padding:10px 30px;
+        background-color: black;
+        color:white;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+     }
+     .nutbam:hover{
+        background-color: #ccc;
+        color: black;
+     }
+     .caix1:hover{
+opacity: 0.60;
+     }
+/* cai nay la dia diem */
+/* cai nay la nhap ten */
+#so5{
+    height:500px;
+    margin: 0 517px;
+}
+.tengi{
+}
+.kophaima{
+text-align: center;
+}
+.sebiet1,.sebiet2{
+    margin-top:50px;
+}
+.sebiet1{
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.goitoi{
+    margin-left:30px;
+}
+.tengi2{
+    padding-top:76px;
+    display:inline-block;
+}
+.okban{
+    padding:10px 0;
+}
+.gimvao{
+    font-size: 25px;
+}
+.tengi3{
+    /* display: inline-block; */
+    margin-bottom:-44px ;
+    margin-left:250px;
+    display:inline-block;
+}
+.caigico{
+    float:right;
+}
+.caigine1{
+    display: inline-block;
+}
+.caigine3{
+margin: 2px 0;
+}
+.hihi{
+    padding: 10px 10px;
+}
+.hihi1{
+    padding: 10px 10px;
+    width: 100%;
+}
+.xaicainay{
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+}
+.fight{
+    float: right;
+    display: inline-block;
+    margin-top:30px;
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    border: none;
+}
+.fight:hover{
+    background-color:#ccc ;
+    color:black;
+}
+/* cai nay la nhap ten */
+/* cai nay la hinh anh ne */
+#so6{
+    height:1200px;
+    background-image:url(./hinh/9.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* cai nay la hinh anh ne */
+#chantrang{
+    margin-top:100px;
+    margin-bottom:100px;
+    text-align: center;
+}
+.end{
+    font-size:30px;
+    margin-bottom:40px;
+    display: inline-block;
+}
+.end:hover{
+color:#ccc
+}
+.endvan{
+    font-size:30px;
+}
+.acuoi{
+    color:#888888;
+    text-decoration: underline;
+}
+
+
+
+
+
